@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.main_div {
+    background: #d75241;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    gap: 25px;
+    overflow: hidden;
+}
+
+.p1 {
+    color: white;
+    font-size: 25px;
+}
+
+.inpBtn {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inpBtn input {
+    border: none;
+    padding: 7px;
+    width: 80%;
+    height: 30px;
+}
+
+.inpBtn button {
+    height: 30px;
+    width: 15%;
+    background: #d9d9d9;
+    border: none;
+}
+
+#1,
+#3,
+#5 {
+    background: #eeeeee;
+    width: 100%;
+}
+
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+.main_li {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    align-items: center;
+}
+
+.checkDiv2 {
+    width: 100%;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.icons {
+    display: none;
+}
+
+.icon3 {
+    background: #d75241;
+    color: white;
+}
+
+.icon2 {
+    width: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul{
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.btnSort{
+    border: none;
+    color: black;
+    width: 45px;
+    height: 15px;
+}
+
+.sorting{
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+    width: 45px;
+    height: 60px;
+    background: #f0f0f0;
+    display: none;
+}
+
+.sortObject{
+    border: none;
+    color: black;
+    background: none;
+}
+
+.editInp{
+    display: none;
+}
